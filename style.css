@@ -1,0 +1,517 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #7d7d7d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Lobster Two, Roboto, Serif;
+    color: #333;
+}
+
+a {
+    color: #fb2f3a;
+}
+
+a:hover,
+a:focus {
+    color: #eb2f39;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #9a9c9f;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    background: #8e9093;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+/** Jumbotron **/
+.jumbotron {
+    padding: 0;
+    background: #222 url(images/img.jpg) no-repeat 50% top;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: transparent;
+    margin-top: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    text-indent: -9999px;
+    width: 131px;
+    height: 60px;
+    background: url(images/logo.png) no-repeat;
+    margin: 0px;
+}
+
+.navbar-brand:hover {
+    border-bottom: none;
+}
+
+.navbar-right {
+    padding: 10px;
+
+}
+
+.navbar-nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #999;
+}
+
+.navbar-nav > li > a {
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: none;
+    color: white;
+    padding: 3px 20px;
+}
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover {
+    box-shadow: none;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    box-shadow: none;
+}
+
+.imgbrowser {
+    width: 50%;
+    margin: auto;
+}
+
+/** end navbar **/
+
+/** Banner **/
+.carousel-control {
+    border-radius: 3px;
+    ;
+    border: none;
+    font-size: 32px;
+    width: 30px;
+    height: 70px;
+    line-height: 55px;
+    top: 45%;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-control:hover {
+    border: none;
+}
+
+.corousel-control.left {
+    left: 0px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.corousel-control.right {
+    right: 0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/* end banner */
+
+/** jumbotron text-begin **/
+
+.jumbotron .img-responsive {}
+
+.jumbotron-progress-bar h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron-progress-bar h4 {
+    font-size: 18px;
+    color: #ccc;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.jumbotron-progress-bar a {
+    margin-left: 15px;
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.jumbotron-progress-bar .btn-primary {
+    background: #fb2f3a;
+    border: none;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-top: 0px;
+}
+
+img {
+    padding-top: 40px;
+}
+
+/** END jumbotron tezt-begin **/
+
+/** PROCESS **/
+
+section.process {
+    background: #eee;
+    border-bottom: #ddd;
+    border-top: 1px solid white;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 10;
+    padding: 60px 0;
+}
+
+.h-line {
+    max-height: 5px;
+    background: url(images/h-line.jpg) repeat-x;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    top: 55px;
+}
+
+.process-icon {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: transparent url(images/process.png) no-repeat;
+    background-position: left top;
+}
+
+.process-icon.idesign {
+    background-position: -100px top;
+}
+
+.process-icon.idevelop {
+    background-position: -200px top;
+}
+
+.process-icon.ilaunch {
+    background-position: -300px top;
+}
+
+/** END PROCESS **/
+
+/** PORTFOLIO **/
+
+section.portfolio {
+    padding: 60px 0;
+}
+
+.title {
+    margin-bottom: 0px;
+}
+
+.category {
+    font-size: 12px;
+    color: #999999;
+}
+
+/** END PORTFOLIO **/
+
+/** PARTNERS **/
+
+section.partners {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/** END PARTNERS **/
+
+/** WIDGETS **/
+
+blockquote {
+    padding: 0 20px;
+}
+
+.pull-left {
+    float: left !important;
+    padding-top: 0;
+}
+
+section.widgets {
+    padding: 50px 0 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.testimonials blockquote {
+    overflow: hidden;
+    border: none;
+}
+
+.testimonials blockquote p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #7d7d7d;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.testimonials blockquote cite {
+    color: #333;
+}
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+}
+
+.blog-list li:first-child {
+    padding-top: 0px;
+}
+
+.blog-list li:last-child {
+    border-bottom: 0px;
+}
+
+.blog-list h5 {
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.blog-list h5 a {
+    color: #333;
+}
+
+.blog-list h5 a:hover {
+    color: #444;
+}
+
+.tweet-lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tweet-lists li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.tweet-lists li:first-child {
+    padding-top: 0px;
+}
+
+.tweet-lists li:last-childd {
+    border-bottom: 0px;
+}
+
+.tweet-lists li img {
+    margin-right: 20px;
+}
+
+/** END WIDGETS **/
+
+/** FOOTER **/
+
+footer {
+    padding: 60px 0;
+}
+
+.table {
+    width: 0%;
+    display: table;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    float: left;
+    margin-right: 40px;
+}
+
+.footer-links li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.social {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.twitter {
+    background: #569ccd;
+    margin-right: 5px;
+}
+
+.facebook {
+    background: #2272a9;
+}
+
+.twitter:hover,
+.twitter:focus {
+    background: #4f91bf;
+}
+
+.facebook:hover,
+.facebook:focus {
+    background: #20699c;
+}
+
+.social-sprite {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url(images/twitter.png) no-repeat;
+    background-position: left top;
+}
+
+.social-sprite.facebook {
+    background: transparent url(images/facebook.png) no-repeat;
+    background-position: left top;
+}
+
+/** END FOOTER **/
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .navbar .nav {
+        float: none;
+    }
+
+    .plan,
+    .design,
+    .develop,
+    .launch,
+    .testimonials,
+    .blog,
+    .tweets,
+    .p-item {
+        margin-bottom: 40px;
+        padding: 0 40px;
+    }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .navbar .nav {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .plan,
+    .design,
+    .develop,
+    .launch,
+    .testimonials,
+    blog,
+    .tweets,
+    .p-item {
+        margin-bottom: 40px;
+        padding: 0 40px;
+    }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .navbar .nav {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .plan,
+    .design,
+    .develop,
+    .launch,
+    .testimonials,
+    blog,
+    .tweets,
+    .p-item {
+        margin-bottom: 40px;
+        padding: 0 40px;
+    }
+}
